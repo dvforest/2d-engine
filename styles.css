@@ -1,0 +1,14 @@
+/* Center the canvas element */
+#main {
+    display: block; /* Convert from inline item to block, which can be centered */
+  }
+  body { /* Center vertically */
+    background-color: rgb(0, 0, 0);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  html, body { /* Ensure the divs are filling up the whole viewport height*/
+  height: 100%;
+  margin: 0;
+  }
